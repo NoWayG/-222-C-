@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\listboxV22-222\listboxV22-222\bin\Debug\listboxV22-222.exe.config
+C:\Users\User\source\repos\listboxV22-222\listboxV22-222\bin\Debug\listboxV22-222.exe
+C:\Users\User\source\repos\listboxV22-222\listboxV22-222\bin\Debug\listboxV22-222.pdb
+C:\Users\User\source\repos\listboxV22-222\listboxV22-222\obj\Debug\listboxV22-222.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\listboxV22-222\listboxV22-222\obj\Debug\listboxV22-222.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\listboxV22-222\listboxV22-222\obj\Debug\listboxV22-222.exe
+C:\Users\User\source\repos\listboxV22-222\listboxV22-222\obj\Debug\listboxV22-222.pdb
