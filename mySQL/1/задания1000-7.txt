@@ -1,0 +1,10 @@
+1. SELECT * FROM trip WHERE name LIKE '%а %'
+2. SELECT name FROM trip WHERE city = "Москва" ORDER BY name ASC
+3. SELECT city, count(city) FROM trip group by city
+4. SELECT city FROM trip group by city order by count(city) DESC limit 2
+5. SELECT name, datediff(date_first, date_last) as duration FROM trip
+6. SELECT name, city, date_first, date_last FROM trip WHERE (DATEDIFF(date_last, date_first)) = ( SELECT MIN(DATEDIFF(date_last, date_first)) FROM trip)
+7. SELECT name, city, date_first, date_last FROM trip WHERE MONTH(date_first) = MONTH(date_last)
+8. SELECT MONTHNAME(date_first) as Месяц, COUNT(MONTHNAME(date_first)) as Количество FROM trip GROUP BY MONTHNAME(date_first)
+9. SELECT *, datediff(date_last, date_first)*per_diem as Сумма FROM trip
+10. SELECT name, SUM((DATEDIFF(date_last, date_first)) * per_diem) AS Сумма FROM trip GROUP BY name HAVING COUNT(date_first) > 3
